@@ -1,0 +1,412 @@
+/* @import url(normalize.css);
+@import url(Bootstrap/css/bootstrap.css);
+@import url(Fonts/Awsome/css/all.css); */
+
+@font-face {
+    font-family: "Dirooz";
+    src: url(Fonts/Dirooz/Dirooz.ttf) format('truetype'),
+        url(Fonts/Dirooz/Dirooz.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Ordibehesht";
+    src: url(Fonts/Ordibehesht/Ordibehesht.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: "Diplomat";
+    src: url(Fonts/Diplomat/Far_Diplomat.ttf) format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Media queries */
+
+
+
+
+
+/* header */
+
+.header {}
+
+.header-nav {}
+
+.menu-bar-icon {
+    display: none;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-nav-list__item {}
+
+.header-nav-list__link {
+    font-family: "Dirooz";
+    color: black;
+}
+
+.header-nav-list__link:hover {
+    /* background-color: #fe4902;
+    border-radius: 1.5rem;
+    transition-duration: 0.4s;
+    color: white; */
+    color: #fe4902;
+    transition-duration: 0.4s;
+}
+
+.header-nav-txtsearch {
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 0.75rem;
+}
+
+.header-nav-small {
+    display: none;
+}
+
+.header-nav-list-small {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.header-nav-list__item-small {
+    border-bottom: 1px dotted black;
+}
+
+.header-nav-list__link-small {
+    font-family: "Dirooz";
+    color: black;
+}
+
+.header-nav-list__link-small:hover{
+    transition-duration: 0.4s;
+    color: #fe4902;
+}
+
+.header-img-wrapper {}
+
+.header__img {}
+
+.txtsearch__input {
+    border: none;
+    outline: none;
+    height: 75%;
+    width: 90%;
+    font-size: 14px;
+    margin-right: 2;
+    /* border: 1px solid red; */
+}
+
+.txtsearch__input {
+    font-family: "Dirooz";
+}
+
+.header-nav-txtsearch__icon {
+    cursor: pointer;
+}
+.txt-search-login-sign-up-wrapper{}
+.sign-up-login-list{
+    padding: 0;
+    margin-top: 0.7rem;
+    display: flex;
+}
+.sign-up-login-list__item{
+    list-style-type: none;
+}
+.sign-up-login-list__link{
+    text-decoration: none;
+    color: black;
+    font-family: "Dirooz"
+}
+.sign-up-login-list__link:hover{
+    color: #fe4902;
+    transition-duration: 0.4s;
+}
+/* main */
+
+/* intro */
+
+/* intro-description */
+.main {}
+
+.intro {
+    background-color: #50DBB4;
+}
+
+.intro-wrapper {
+    max-width: 100rem;
+}
+
+.intro-image {
+    max-width: 25rem;
+}
+
+.intro__image {
+    width: 100%;
+}
+
+.intro-texts {}
+
+.intro-texts__title {
+    font-family: "Ordibehesht";
+}
+
+.intro-texts__description {
+    max-width: 22rem;
+    font-family: "Diplomat";
+    font-size: 28px;
+}
+
+/* new books */
+.new-books {
+    /* background-color: #18dcff; */
+    /* background-color: #009fbb; */
+    background-color: #00c0e2;
+}
+
+.new-books-wrapper {}
+
+.new-books-content {
+    max-width: 14rem;
+}
+
+.new-books-content-text {}
+
+.new-books-button-wrapper {}
+
+.intro-new-books-content__text {
+    font-family: "Diplomat";
+    font-size: 20px;
+}
+
+.new-books-button-wrapper {}
+
+.intruduce__btn {
+    font-family: "Dirooz";
+    font-size: 14px;
+}
+
+.buy__btn {
+    font-family: "Dirooz";
+    font-size: 14px;
+}
+
+/* ads */
+
+.ads {
+    background-color: #dcdde1;
+}
+
+.ads-wrapper {}
+
+.book-image {
+    max-width: 18rem;
+}
+
+.book__image {
+    width: 100%;
+}
+
+.book-texts {}
+
+.book__title {
+    font-family: "Ordibehesht";
+}
+
+.book__discount {
+    color: red;
+}
+
+.book__writer {
+    font-family: "Diplomat";
+    font-size: 24px;
+}
+
+.book__translator {
+    font-family: "Diplomat";
+    font-size: 24px;
+}
+
+.book__publisher {
+    font-family: "Diplomat";
+    font-size: 24px;
+}
+
+.book__descrioption {
+    font-family: "Diplomat";
+    font-size: 24px;
+}
+
+.buttons-wrapper {
+    margin: 0 auto;
+    min-width: 15rem;
+}
+
+/* footer */
+
+.footer {}
+
+.footer-nav-wrapper {
+    justify-content: space-around;
+}
+
+.footer-nav {}
+
+.footer-nav-title {
+    font-family: "Ordibehesht";
+    font-size: 20px;
+}
+
+.footer-nav-list {
+    padding-bottom: 1rem;
+    align-items: flex-start;
+    padding-left: 0;
+    /* border-bottom: 1px dotted black; */
+}
+
+.footer-list__item {
+    list-style-type: none;
+    margin-left: 0.5rem;
+}
+
+.follow-us {
+    padding-bottom: 1rem;
+    /* border-bottom: 1px dotted black; */
+    margin-bottom: 1rem;
+}
+
+.follow-us__text {
+    font-family: "Ordibehesht";
+    font-size: 20px;
+    margin: 0;
+}
+
+.follow-us-icons {
+    font-size: 20px;
+
+}
+
+.list-item__link {
+    font-family: "Dirooz";
+    text-decoration: none;
+    color: black;
+}
+
+.list-item__link:hover {
+    color: #fe4902;
+    transition-duration: 0.4s;
+}
+
+.footer-copyright {}
+
+.copy-right__text {
+    font-family: "Dirooz";
+    margin: 0 auto;
+}
+
+.sand-box__link {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.sand-box__link:hover {
+    color: #fe4902;
+}
+
+/* media queries */
+
+@media all and (max-width : 575.8px) {
+
+    .intro-wrapper {
+        flex-direction: column;
+    }
+
+    .intro-texts {
+        max-width: 15rem;
+    }
+
+    .intro-texts__description {
+        font-size: 18px !important;
+    }
+
+    .new-books-wrapper {
+        flex-direction: column;
+    }
+
+    .new-books-content:first-child {
+        margin-top: 0 !important;
+    }
+}
+
+@media all and (max-width : 767.8px) {
+
+    .intro-image {
+        max-width: 15rem;
+    }
+
+    .ads-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .book-image {
+        margin-bottom: 1rem;
+    }
+
+    .new-books-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .new-books-content {
+        margin-top: 1rem !important;
+    }
+
+    .footer-nav-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav-list {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media all and (max-width : 991.8px) {
+
+    .menu-bar-icon {
+        display: block;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+    .sign-up-login-list{
+        display: none;
+    }
+    .intro-texts {
+        max-width: 15rem;
+    }
+
+    .intro-texts__description {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width : 1199.8px) {
+    .intro-image {
+        max-width: 20rem;
+    }
+
+}
+.show-menu{
+    display: block;
+}
